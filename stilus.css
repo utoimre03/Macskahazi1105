@@ -1,0 +1,285 @@
+body {
+    background-color: white;
+}
+    
+
+.tartalom {
+    max-width: 800px;
+    margin: auto;
+    color: whitesmoke;
+}
+
+.fejlec{
+    background-image: url(cicak_forras/images/hero.jpg);
+    background-position: 35% 35%;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    padding: 10px;
+    height: 55px;
+    margin: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+    text-align: center;
+    margin-left: 0;
+}
+
+.menu ul li {
+    padding: 15px;
+    border-style: round;
+    margin-right: 30px;
+    background-color: #de7000;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: brown;
+}
+
+.szoveg {
+    margin-top: 200px;
+}
+
+#macskakeres{
+    padding: 15px 60px;
+    border-style: round;
+    border-radius: 100px;
+    background-color: #de7000;
+    align-content: center;
+    text-decoration: none;
+    margin: auto;
+    color: white;
+}
+
+#macskakeresdiv{
+    margin: auto;
+    padding: 15px 55px;
+    width: 30%;
+    padding-top: 25px;
+}
+
+.masodik {
+    text-align: center;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    margin: 10px;
+    background-color: #161616;
+    color: white;
+    max-width: 780px;
+    margin: auto;
+}
+
+div.masodik div.button{
+    float: left;
+    margin-left: 90px;
+}
+
+.harmadik {
+    text-align: center;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    margin: 10px;
+    background-color: #161616;
+    color: white;
+    max-width: 780px;
+    margin: auto;
+}
+
+figure{
+    position: relative;
+}
+figure img{
+    display: block;
+}
+
+figcaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.negyedik {
+    text-align: center;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    margin: 10px;
+    background-color: #161616;
+    color: white;
+    max-width: 780px;
+    margin: auto;
+}
+
+.otodik {
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    margin: 10px;
+    background-color: #161616;
+    color: white;
+    max-width: 780px;
+    margin: auto;
+    overflow: hidden;
+}
+
+div.otodik h2{
+    font-size: large;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+div#tippek{
+    float:left;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding:15px;
+    width: 44%;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+
+img[alt="eger"]{
+    width: 20%;
+}
+
+div#konyha{
+    overflow: hidden;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 15px;
+    width: 44%;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+img[alt="hal"]{
+    width: 20%;
+}
+
+.button{
+    margin:auto;
+    padding: 15px;
+    border-style: round;
+    background-color: #de7000;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    width: 200px;
+}
+
+.hatodik {
+    text-align: center;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    margin: 10px;
+    background-color: #161616;
+    color: white;
+    max-width: 780px;
+    margin: auto;
+    overflow: hidden;
+}
+
+div#verseny1{
+    float:left;
+    padding:15px;
+    width: 42%;
+    margin-right: 2%;
+    margin-left: 1%;
+
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgray;
+
+    text-align: left;
+}
+
+div#verseny2{
+    float: left;
+    padding: 15px;
+    width: 42%;
+    margin-right: 1%;
+    margin-left: 2%;
+
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgray;
+
+    text-align: left;
+}
+
+.button2{
+    margin:auto;
+    padding: 15px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: #de7000;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    width: 200px;
+
+    box-shadow: 0px 2px 2px rgb(20, 20, 20);;
+}
+
+h3{
+    text-align: center;
+    font-size: x-large;
+}
+
+#fontos {
+    font-weight: bold;
+}
+
+ul {
+    text-align: left;
+}
+
+img {
+    width: 250px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.image-container {
+    text-align: center; /* Opcionális, a képek középre igazításához */
+}
+  
+.image-container img {
+    display: inline-block;
+    margin: 10px; /* Opcionális, a képek közötti térköz beállításához */
+}
+
+hr {
+    border-left: 5px;
+}
